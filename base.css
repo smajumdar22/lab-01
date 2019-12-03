@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-size: 40%;
+  }
+  
+  body {
+    width: 96rem;
+    margin: 0px auto;
+    padding: 0px;
+  }
+  

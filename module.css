@@ -1,0 +1,42 @@
+/* Mobile first */
+@media screen and (max-width: 767px){
+    div {
+      text-align: center;
+    }
+    header div {
+      line-height: 7.5rem;
+    }
+    .b {
+      line-height: 15rem;
+    }
+    .c, .d {
+      line-height: 12.5rem;
+    }
+    .e, .f, .g, .h {
+      line-height: 25rem;
+    }
+    .i {
+      line-height: 8rem;
+    }
+  }
+  
+  @media screen and (min-width: 767px){
+    div {
+      text-align: center;
+    }
+    header div {
+      line-height: 10rem;
+    }
+    .b {
+      line-height: 60rem;
+    }
+    .c, .d {
+      line-height: 20rem;
+    }
+    .e, .f, .g, .h {
+      line-height: 25rem;
+    }
+    .i {
+      line-height: 15rem;
+    }
+  }
