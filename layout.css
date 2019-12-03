@@ -3,23 +3,21 @@
     div {
       border: solid 1px;
       font-size: 180%;
+      text-align: center;
     }
     header div {
       width: 48rem;
       height: 7.5rem;
+      line-height: 7.5rem;
       border-bottom: none;
       float: none;
       background-color: #685f5e;
     }
-  
-    #e, #f, #g, #h, #i {
-      border-left: none;
-      border-top: none;
-    }
-    
+   
     #b{
       width: 48rem;
       height: 15rem;
+      line-height: 15rem;
       border-bottom: none;
       float:none;
       background-color: #e1eb5c;
@@ -27,6 +25,7 @@
     #c, #d {
       width: 48rem;
       height: 12.5rem;
+      line-height: 12.5rem;
       float: none;
       clear: both;
     }
@@ -42,6 +41,9 @@
       height: 25rem;
       float: left;
       background-color: #74b9ff;
+      border-left: none;
+      border-top: none;
+      line-height: 25rem;
     }
     #f {
       width: 24rem;
@@ -49,6 +51,9 @@
       float: left;
       clear: right;
       background-color: #e4619e;
+      border-left: none;
+      border-top: none;
+      line-height: 25rem;
     }
     #g {
       width: 24rem;
@@ -56,19 +61,29 @@
       clear: left;
       float: left;
       background-color: #7bdb73;
+      border-left: none;
+      border-top: none;
+      line-height: 25rem;
     }
     #h {
       width: 24rem;
       height: 25rem;
       float: left;
       background-color: #272623;
+      border-left: none;
+      border-top: none;
+      line-height: 25rem;
     }
     #i{
       width: 48rem;
       height: 8rem;
+      line-height: 8rem;
       float: none;
       clear:both;
       background-color: #e1e1e1;
+      border-left: none;
+      border-top: none;
+      line-height: 25rem;
     }
   }
   
@@ -76,6 +91,7 @@
     div {
       border: solid 1px;
       font-size: 180%;
+      text-align: center;
     }
   
     #e, #f, #g, #h, #i {
