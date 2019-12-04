@@ -1,173 +1,227 @@
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
     div {
       border: solid 1px;
       font-size: 180%;
       text-align: center;
     }
-    header div {
-      width: 48rem;
-      height: 7.5rem;
-      line-height: 7.5rem;
+    #a {
+      grid-area: a;
       border-bottom: none;
-      float: none;
-      background-color: #685f5e;
+      background-color: #2f8a78;
     }
    
     #b{
-      width: 48rem;
-      height: 15rem;
-      line-height: 15rem;
+      grid-area: b;
       border-bottom: none;
-      float:none;
       background-color: #e1eb5c;
     }
-    #c, #d {
-      width: 48rem;
-      height: 12.5rem;
-      line-height: 12.5rem;
-      float: none;
-      clear: both;
-    }
+
     #c {
       background-color: #13110d;
+      grid-area: c;
     }
     #d {
+      grid-area: d;
       border-top: none;
       background-color: #56cec8;
     }
     #e {
-      width: 24rem;
-      height: 25rem;
-      float: left;
+      grid-area: e;
       background-color: #74b9ff;
-      border-left: none;
+      border-right: none;
       border-top: none;
-      line-height: 25rem;
     }
     #f {
-      width: 24rem;
-      height: 25rem;
-      float: left;
-      clear: right;
+      grid-area: f;
       background-color: #e4619e;
-      border-left: none;
       border-top: none;
-      line-height: 25rem;
     }
     #g {
-      width: 24rem;
-      height: 25rem;
-      clear: left;
-      float: left;
+      grid-area: g;
       background-color: #7bdb73;
-      border-left: none;
+      border-right: none;
       border-top: none;
-      line-height: 25rem;
     }
     #h {
-      width: 24rem;
-      height: 25rem;
-      float: left;
+      grid-area: h;
       background-color: #272623;
-      border-left: none;
       border-top: none;
-      line-height: 25rem;
     }
     #i{
-      width: 48rem;
-      height: 8rem;
-      line-height: 8rem;
-      float: none;
-      clear:both;
+      grid-area: i;
       background-color: #e1e1e1;
-      border-left: none;
       border-top: none;
-      line-height: 25rem;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 85px 170px 135px 135px 270px 270px 90px;
+      grid-template-areas: 
+      "a a"
+      "b b"
+      "c c"
+      "d d"
+      "e f"
+      "g h"
+      "i i";
     }
   }
   
-  @media only screen and (min-width: 767px) {
+  @media only screen and (min-width: 601px) and (max-width:960px) {
     div {
       border: solid 1px;
       font-size: 180%;
       text-align: center;
     }
-  
-    #e, #f, #g, #h, #i {
-      border-left: none;
-      border-top: none;
-    }
-    header {
-      width: 100%;
-    }
-  
-    header div {
-      width: 96rem;
-      height: 10rem;
+
+    #a {
+      grid-area: a;
       border-bottom: none;
-      background-color: var(--div-background-color);
+      background-color: #eda25f;
     }
+  
   
     #b {
-      width: 20rem;
-      height: 60rem;
-      float: left;
+      grid-area: b;
+     border-bottom: none;
       background-color: #c1d5e2;
     }
   
   
     #c{
-      width: 38rem;
-      height: 20rem;
-      float: left;
-      border-left: none;
+      grid-area: c;
       background-color: #5e573d;
     }
   
     #d {
-      width: 38rem;
-      height: 20rem;
-      float:left;
-      border-left: none;
+      grid-area: d;
+      border-top: none;
       background-color: #e2d5cd;
     }
   
   
     #e {
-      width: 19rem;
-      height: 25rem;
-      float: left;
+      grid-area: e;
+      border-right: none;
+      border-top: none;
       background-color: #795cad;
     }
   
     #f {
-      width: 19rem;
-      height: 25rem;
-      float: left;
+      border-top: none;
       background-color: #b2c6d3;
     }
   
     #g {
-      width: 19rem;
-      height: 25rem;
-      float:left;
+      grid-area: g;
+      border-right: none;
+      border-top: none;
       background-color: #2f3338;
     }
   
     #h {
-      width: 19rem;
-      height: 25rem;
-      float: left;
+      grid-area: h;
+      border-top: none;
       background-color: #474443;
     }
   
   
+    #i {
+      grid-area: i;
+      border-top: none;
+      background-color: #303322;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 85px 170px 135px 135px 270px 270px 90px;
+      grid-template-areas: 
+      "a a"
+      "b b"
+      "c c"
+      "d d"
+      "e f"
+      "g h"
+      "i i";
+    }
+  }
+
+  @media only screen and (min-width: 961px) {
+    div {
+      border: solid 1px;
+      font-size: 180%;
+    }
+  
+    #a {
+      grid-area: a;
+      border-bottom: none;
+      background-color: #879199;
+    }
+  
+    #b {
+      grid-area: b;
+      background-color: #e2dbb4;
+    }
+  
+  
+    #c{
+      border-left: none;
+      grid-area: c;
+      background-color: #708d5c;
+    }
+  
+    #d {
+      border-left: none;
+      grid-area: d;
+      background-color: #9c529e;
+      
+    }
+  
+    #e {
+      grid-area: e;
+      background-color: #6ca395;
+      border-left: none;
+      border-top: none;
+    }
+  
+    #f {
+      grid-area: f;
+      background-color: #dbbe9b;
+      border-left: none;
+      border-top: none;
+    }
+  
+    #g {
+      grid-area: g;
+      background-color: #cc88a2;
+      border-left: none;
+      border-top: none;
+    }
+  
+    #h {
+      grid-area: h;
+      background-color: #8b9756;
+      border-left: none;
+      border-top: none;
+    }
   
     #i {
-      width: 76rem;
-      height: 15rem;
-      float: left;
-      background-color: #303322;
+      grid-area: i;
+      background-color: #d89c79;
+      border-left: none;
+      border-top: none;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: 200px 190px 190px 190px 190px;
+      grid-template-rows: 100px 200px 250px 150px;
+      grid-template-areas:
+      "a a a a a" 
+      "b c c d d"
+      "b e f g h"
+      "b i i i i"
+      ;
     }
   }

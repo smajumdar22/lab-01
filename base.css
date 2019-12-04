@@ -6,9 +6,26 @@
     font-size: 40%;
   }
   
-  body {
-    width: 96rem;
+  @media only screen and (max-width: 600px){
+    body {
+      max-width: 48rem;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (min-width: 601px){
+    body {
+      max-width: 60rem;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (min-width: 961px) {
+    body {
+    min-width: 96rem;
+    height: 70rem;
     margin: 0px auto;
     padding: 0px;
+    }
   }
   
